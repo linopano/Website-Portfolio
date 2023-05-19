@@ -221,12 +221,10 @@ header .nav-item {
 }
 
 .about-me .row .col-md-6 .site-buttons button {
-  background: linear-gradient(135.48deg,
-      #bda3ee -0.88%,
-      rgba(186, 190, 237, 0.47) 103.5%);
+  background-color: var(--bgcolor);
   background-clip: padding-box;
   color: var(--dark);
-  transition: background 0.6s ease;
+  /* transition: background 0.6s ease; */
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.21);
 }
 
@@ -264,6 +262,7 @@ header .nav-item {
   padding-bottom: 50px;
   display: flex;
   justify-content: center;
+  background-color: var(--bgcolor);
 }
 
 .site-main .services-area .services {
@@ -382,6 +381,10 @@ header .nav-item {
 
 /*Portfolio Area*/
 
+.site-main .portfolio-area {
+  background-color: var(--bgcolor);
+}
+
 .site-main .portfolio-area .port h1 {
   font-family: "Inter", sans-serif;
   font-size: 40px;
@@ -495,6 +498,7 @@ header .nav-item {
 .client {
   padding-top: 50px;
   padding-bottom: 80px;
+  background-color: var(--bgcolor);
 }
 
 .client .container h1 {
@@ -652,6 +656,7 @@ footer.footer-area {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  background-color: var(--bgcolor);
   border-top: solid 0.5px
 }
 
